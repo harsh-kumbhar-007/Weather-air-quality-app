@@ -41,7 +41,7 @@ Provided by OpenWeatherMap.
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/weather-air-quality-app.git
+   git clone https://github.com/harsh-kumbhar-007/Weather-air-quality-app.git
 
 2. Open index.html in browser
 
