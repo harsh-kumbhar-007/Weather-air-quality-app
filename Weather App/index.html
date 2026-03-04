@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Air Quality App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="weather-app">
+
+    <!-- LEFT CARD -->
+    <div class="left-card">
+        <div class="overlay">
+            <h2 id="dayName">Friday</h2>
+            <p id="fullDate">28 July 2023</p>
+            <p id="cityName">Paris, FR</p>
+
+            <img id="weatherIcon" alt="Weather icon">
+
+            <h1 id="temperature">25°C</h1>
+            <p id="weatherCondition">Sunny</p>
+        </div>
+    </div>
+
+    <!-- RIGHT CARD -->
+    <div class="right-card">
+        <div class="details">
+            <div>
+                <span>Humidity</span>
+                <span id="humidity">34%</span>
+            </div>
+            <div>
+                <span>Wind Speed</span>
+                <span id="windSpeed">6 km/h</span>
+            </div>
+            <div>
+                <span>Air Quality</span>
+                <span id="airQuality">Good</span>
+            </div>
+        </div>
+
+        <form id="weatherForm">
+            <input type="text" id="cityInput" placeholder="Search Location">
+            <button type="submit">Search Location</button>
+        </form>
+    </div>
+
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
